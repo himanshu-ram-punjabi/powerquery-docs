@@ -131,7 +131,7 @@ Notice how this operation yields the same output as the previous examples.
 ### Special considerations
 <!--markdownlint-enable MD024-->
 
-After doing a refresh, if our source table changes to have a new **9/1/2020** column and new rows for UK and Mexico, the output of the query is different from the previous examples. Say that our source table, after a refresh, changes to the table in the following image.
+After doing a refresh, if our source table changes to have a new **9/1/2023** column and new rows for UK and Mexico, the output of the query is different from the previous examples. Say that our source table, after a refresh, changes to the table in the following image.
 
 :::image type="content" source="media/unpivot-column/unpivot-updated-source-table.png" alt-text="Screenshot of the unpivot updated source table for unpivot only selected columns.":::
 
@@ -139,4 +139,4 @@ The output of our query looks like the following image.
 
 :::image type="content" source="media/unpivot-column/unpivot-only-selected-columns-updated-final-table.png" alt-text="Screenshot of the Unpivot only selected columns updated final table.":::
 
-It looks like this because the unpivot operation was applied only on the **6/1/2020**, **7/1/2020**, and **8/1/2020** columns, so the column with the header **9/1/2020** remains unchanged.
+It looks like this because the unpivot operation was applied only on the **6/1/2023**, **7/1/2023**, and **8/1/2023** columns, so the column with the header **9/1/2023** remains unchanged.
